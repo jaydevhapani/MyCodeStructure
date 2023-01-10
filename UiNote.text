@@ -1,0 +1,5 @@
+1. if you use height then you have to use VerticalScale from react-native-size-matters;
+2. if you use width then you have to use scale from react-native-size-matters;
+3. if you use padding , font, margin , others  then you have to use moderateScale from react-native-size-matters;
+4. if you using navigation service then first you have to set  NavigationService.setTopLevelNavigator(navigation)
+on your first navigation screen
